@@ -6,7 +6,6 @@ canvas {
   display: block;
 }
 
-/*image pour les règles*/
 .rules {
 	position: absolute;
 	top:5%;
@@ -18,21 +17,18 @@ body {
   padding: 1em;
 }
 
-/*pour le texte que l'on créé dans main.js*/
 p{
   color: antiquewhite;
   font-size: large;
 }
 
-/*pour le titre*/
 h1 { 
   position: relative;
   font-size: 40px;
   margin-top: 0;
   font-family: 'Myriad Pro', 'Myriad', helvetica, arial, sans-serif;
   text-shadow: 2px 3px 3px #292929;
-  letter-spacing: 1px; /*espace entre chaque lettres*/
-  /*contour du titre*/
+  letter-spacing: 1px; 
   -webkit-text-stroke: 1px white;
 }
 
@@ -47,7 +43,6 @@ h1 a {
   -moz-transition: all .3s;
   transition: all .3s;
 }
-/*lorsque la souris est dessus*/
 h1 a:hover {
   color: #185a50;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.3)), to(rgba(0,0,0,1)));
@@ -59,7 +54,6 @@ h1:after {
   content : attr(data-title);
 }
 
-/*pour le sous titre*/
 
 h3 {
   font-family:"Raleway","Segoe UI",Arial,sans-serif;
