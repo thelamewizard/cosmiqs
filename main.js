@@ -6,7 +6,7 @@ let ennemis = [];
 let bullets = [];
 
 let background;
-let gunCol; //gunner color chosen manually
+let gunCol; //gunner color 
 let selectDiff; //difficulty selector
 
 let boss, boss2;
